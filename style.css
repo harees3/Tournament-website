@@ -450,3 +450,78 @@
             color: #4caf50;
             margin-bottom: 10px;
         }
+
+/* CSS */
+.pay-now-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.pay-now-btn .icon {
+  font-size: 20px;
+}
+
+.pay-now-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+.pay-now-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pay-now-btn {
+  outline: none;         /* Remove the focus outline */
+  border: none;          /* Remove border if any */
+}
+
+.pay-now-btn:focus {
+  outline: none;         /* Ensure no outline on focus */
+  box-shadow: none;      /* Remove any shadow on focus if needed */
+}
+
+.pay-now-btn:hover, .pay-now-btn:focus {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+/* CSS */
+.pay-now-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-decoration: none;   /* Remove underline */
+  color: #fff;             /* Set text color */
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.pay-now-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+.pay-now-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
